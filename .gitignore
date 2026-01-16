@@ -5,7 +5,10 @@
 Cargo.lock
 
 # IDE - VS Code
-.vscode/
+# .vscode/launch.json should be committed (useful for team)
+.vscode/settings.json
+.vscode/extensions.json
+.vscode/tasks.json
 *.code-workspace
 
 # IDE - RustRover / IntelliJ IDEA

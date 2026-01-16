@@ -7,8 +7,7 @@
             "cwd": "${workspaceFolder}",
             "program": "${workspaceFolder}/target/debug/json-parser-rs",
             "env": {
-                "RUST_BACKTRACE": "short",
-                "RUSTC_TOOLCHAIN": "/Users/klank/.rustup/toolchains/1.92.0-aarch64-apple-darwin"
+                "RUST_BACKTRACE": "short"
             },
             "args": ["tests/step4/valid2.json"],
             "sourceMap": {},
